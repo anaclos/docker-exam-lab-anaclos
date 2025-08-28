@@ -4,7 +4,7 @@ FROM node:18-alpine
 WORKDIR /usr/src/app
 
 # Install app dependencies
-COPY app.js .
+COPY package*.json ./
 
 RUN npm install
 # If you are building your code for production
