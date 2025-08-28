@@ -12,5 +12,5 @@ docker build -t docker-exam-lab-anaclos .
 docker run -p 3000:3000 docker-exam-lab-anaclos
 
 ## Levantar el servicio con docker compose up
-docker-compose up
+docker compose up
 
